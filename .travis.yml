@@ -24,8 +24,3 @@ deploy:
   script: bash ./deploy.sh
   on:
     branch: master
-<<<<<<< HEAD:.travis.yaml
-
-
-=======
->>>>>>> 947b38ce7c18ae60cfb65d0103be9c1a319b3fdc:.travis.yml
