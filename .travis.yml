@@ -21,6 +21,6 @@ script:
   - docker run -e CI=true arthurrfanti/react-test npm run test
 deploy:
   provider: script
-  script: bash ./deploy.sh
+  script: bash deploy.sh
   on:
     branch: master
