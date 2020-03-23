@@ -1,5 +1,5 @@
 docker build -t arthurrfanti/multi-client:latest -t arthurrfanti/multi-client:$SHA -f ./client/Dockerfile ./client
-docker build -t arthurrfanti/mulit-server:latest -t arthurrfanti/mulit-server:$SHA -f ./server/Dockerfile ./server
+docker build -t arthurrfanti/multi-server:latest -t arthurrfanti/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t arthurrfanti/multi-worker:latest -t arthurrfanti/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push arthurrfanti/multi-client:latest
